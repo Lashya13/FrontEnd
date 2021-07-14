@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+html,body{
+    background: #111;
+}
+h1{
+    text-align: center;
+    color:  white;
+    position: absolute;
+    
+    top: 450px; 
+    right: 665px; 
+    width: 100px; 
+    text-align:right;
+    
+
+}
+.spotify{
+    background: #1db954;
+    height: 102px;
+    width:102px;
+    border-radius: 50%;
+    position: absolute;
+    top:45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transform: rotate(9deg);
+}
+
+
+.spotify:hover{
+    cursor:pointer;
+}
+.topBar{
+    border: 7px solid transparent;
+    border-top: 7px solid #fff;
+    border-radius: 47%;
+    height:75px;
+    width:75px;
+    position: absolute;
+    top: 25px;
+    left: 8px;
+}
+
+
+.topBar:before, .topBar:after{
+    content: "";
+    width:6px;
+    height: 6px;
+    background: #fff;
+    border-radius:50%;
+    position: absolute;
+    top:5px;
+}
+
+.topBar:before{
+    left:5px;
+}
+.topBar:after{
+    right: 5px;
+}
+
+.midBar{
+    border: 6px solid transparent;
+    border-top: 6px solid #fff;
+    border-radius: 47%;
+    height:65px;
+    width:65px;
+    position: absolute;
+    top: 41px;
+    left: 14px;
+}
+.midBar:before, .midBar:after{
+    content: "";
+    width:5px;
+    height: 5px;
+    background:#fff;
+    border-radius: 50%;
+    position: absolute;
+    top:4px;
+}
+.midBar:before{
+    left:4px;
+}
+.midBar:after{
+    right: 5px;
+}
+.botBar{
+    border: 5px solid transparent;
+    border-top: 5px solid #fff;
+    border-radius: 47%;
+    height:50px;
+    width:50px;
+    position: absolute;
+    top: 56px;
+    left: 22px;
+}
+.botBar:before, .botBar:after{
+    content: "";
+    width:4px;
+    height: 4px;
+    background:#fff;
+    border-radius: 50%;
+    position: absolute;
+    top:3px;
+}
+.botBar:before{
+    left:3px;
+}
+.botBar:after{
+    right: 3px;
+}
